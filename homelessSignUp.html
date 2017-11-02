@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SignUp</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+	
+<body>
+	<p> <strong> Basic Information </strong> </p>
+    <form id "SignUp" onsumbit="othername()">
+      Name:&nbsp<input type="text" id="name"/><br><br>
+
+      Hometown:&nbsp<input type="text" id="hometown"/><br><br>
+
+	  Current City:&nbsp<input type="text" id="city"/><br><br>
+
+	  Current State:&nbsp<input type="text" id="state"/><br><br>
+
+	  Looking for:&nbsp<textarea rows="1" cols="25" placeholder="(job, shelter, friend, etc.)"></textarea><br><br>
+      <input type="submit" value="Submit"/><br>
+
+    </form>
+
+
+<a href = "homelessBio.html" style="text-decoration: none"> &nbsp sumbit, and then click here to go to the next page &nbsp </a>
+
+
+
+<script language="JavaScript">
+function othername() {
+    var name = document.getElementById("name").value;
+    
+    var user = document.getElementById("username").value;
+document.write(name) 
+document.write("\n") 
+document.write(user)
+}
+</script>	
+</body>
+
+</html>

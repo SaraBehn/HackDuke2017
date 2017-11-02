@@ -1,0 +1,51 @@
+h1{
+  color: #15A2FE;
+  font-size: 40px;
+  font-family: "Avenir Next" !important;
+}
+
+h2{
+  color: #606060;
+  font-size: 25px;
+  font-family: "Avenir Next" !important; 
+	 
+}
+
+h3{
+  color: #15A2FE;
+  font-size: 20px;
+  font-family: "Avenir Next" !important;
+}
+
+h4{
+  color: #15A2FE;
+  font-size: 60px;
+  font-family: "Avenir Next" !important;
+}
+
+li{
+  color: #15A2FE;
+  font-size: 20px;
+  font-family: "Avenir Next" !important;
+}
+
+img{
+    width: 50%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px solid #15A2FE;
+}
+
+a,form{
+  color: grey;
+  font-size: 20px;
+  font-family: "Avenir Next";
+}
+
+p{
+	color:#606060;
+  font-size: 20px;
+  font-family: "Avenir Next" !important;
+}
